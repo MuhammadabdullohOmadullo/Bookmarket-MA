@@ -1,3 +1,12 @@
+/* CUSTOM-PROPS */
+:root {
+--blue:#5267df;
+--red:#fa5959;
+--text-color:#242a45;
+--text-color-75: rgba(36, 42, 69, 0.75);
+--text-color-50: rgba(36, 42, 69, 0.5);
+}
+
 /* FONTS */
 @font-face {
   font-family: 'Rubik';
@@ -79,7 +88,7 @@ body {
   line-height: 36px;
   letter-spacing: 0.15px;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color-50);
 }
 
 img {
@@ -91,9 +100,9 @@ img {
 /* CONTAINER  */
 .container {
   width: 100%;
-max-width: 1200px;
-padding-left: 50px;
-padding-right: 50px;
+max-width: 1150px;
+padding-left: 20px;
+padding-right: 20px;
 margin-left: auto;
 margin-right: auto;
 }
